@@ -21,13 +21,13 @@
 <?php
 if ( is_front_page() ) { ?>
 <div id="logos">
-<a href="http://www.wsu.edu/"><img id="wsu" src="/wp-content/uploads/wsu.png" /></a>
-<a href="http://www.wwu.edu/"><img id="wwu" src="/wp-content/uploads/wwu.png" /></a>
-<a href="http://www.hiu.edu/"><img id="hiu" src="/wp-content/uploads/hiu.png" /></a>
-<a href="http://www.bothell.washington.edu/"><img id="uw-bothell" src="/wp-content/uploads/uw-bothell.png" /></a>
-<a href="http://www.ewu.edu/"><img id="ewu" src="/wp-content/uploads/ewu.png" /></a>
-<a href="http://www.evergreen.edu/"><img id="esc" src="/wp-content/uploads/esc.png" /></a>
-<a href="http://www.cwu.edu/"><img id="cwu" src="/wp-content/uploads/cwu.png" /></a>
+<a href="http://www.wsu.edu/"><img id="wsu" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
+<a href="http://www.wwu.edu/"><img id="wwu" src="/wp-content/uploads/sites/161/2014/08/wwu.png" /></a>
+<a href="http://www.hiu.edu/"><img id="hiu" src="/wp-content/uploads/sites/161/2014/08/hiu.png" /></a>
+<a href="http://www.bothell.washington.edu/"><img id="uw-bothell" src="/wp-content/uploads/sites/161/2014/08/uw-bothell.png" /></a>
+<a href="http://www.ewu.edu/"><img id="ewu" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
+<a href="http://www.evergreen.edu/"><img id="esc" src="/wp-content/uploads/sites/161/2014/08/esc.png" /></a>
+<a href="http://www.cwu.edu/"><img id="cwu" src="/wp-content/uploads/sites/161/2014/08/cwu.png" /></a>
 </div>
 
 <?php } else {
