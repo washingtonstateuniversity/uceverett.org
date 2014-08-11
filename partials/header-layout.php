@@ -37,19 +37,13 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 	<div class="site-header-main">
 		<div class="container">
 			<div class="site-branding">
-				<h1 class="site-title">
-					<?php // Site title
-					if ( 1 !== $hide_site_title && get_bloginfo( 'name' ) ) : ?>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-						<?php bloginfo( 'name' ); ?>
-					</a>
-					<?php endif; ?>
-				</h1>
 				<?php // Tagline
-				if ( 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
+				if ( is_front_page() && 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
 				<span class="site-description">
 					<?php bloginfo( 'description' ); ?>
 				</span>
+				<?php elseif( is_singular() ) : ?>
+					<span class="site-description"><?php the_title(); ?></span>
 				<?php endif; ?>
 			</div>
 
