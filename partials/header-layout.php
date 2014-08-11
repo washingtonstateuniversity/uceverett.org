@@ -37,11 +37,6 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 	<div class="site-header-main">
 		<div class="container">
 			<div class="site-branding">
-				<?php if ( ttfmake_get_logo()->has_logo() ) : ?>
-				<div class="custom-logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
-				</div>
-				<?php endif; ?>
 				<h1 class="site-title">
 					<?php // Site title
 					if ( 1 !== $hide_site_title && get_bloginfo( 'name' ) ) : ?>

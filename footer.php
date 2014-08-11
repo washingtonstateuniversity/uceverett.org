@@ -5,7 +5,13 @@
 ?>
 
 				</div>
-<center><div class="custom-logo"><a rel="home" href="/"></a></div></center>
+				<?php if ( ttfmake_get_logo()->has_logo() ) : ?>
+				<center>
+				<div class="custom-logo">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"></a>
+				</div>
+				</center>
+				<?php endif; ?>
 			</div>
 
 <div class="border"></div>
