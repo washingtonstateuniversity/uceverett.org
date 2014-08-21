@@ -38,7 +38,7 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 		<div class="container">
 			<div class="site-branding">
 				<?php // Tagline
-				if ( is_front_page() && 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
+				if ( is_front_page() OR is_archive() OR is_search() OR is_404() && 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
 				<span class="site-description">
 					<?php bloginfo( 'description' ); ?>
 				</span>
