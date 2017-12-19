@@ -21,11 +21,11 @@
 <?php
 if ( is_front_page() ) { ?>
 <div id="logos">
-<a href="http://www.everett.wsu.edu/"><img id="wsu" alt="Washington State University" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
+<a href="https://everett.wsu.edu/"><img id="wsu" alt="Washington State University" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
 <a href="https://ee.wwu.edu/about/locations/everett"><img id="wwu" alt="Western Washington University" src="/wp-content/uploads/sites/161/2014/08/wwu.png" /></a>
-<a href="http://www.hiu.edu/washington/"><img id="hiu" alt="Hope International University" src="/wp-content/uploads/sites/161/2014/08/hiu.png" /></a>
-<a href="http://www.uwb.edu/nhs/nhsdegrees/rnbprograms/rnbsn-everett"><img id="uw-bothell" alt="University of Washington Bothell" src="/wp-content/uploads/sites/161/2014/08/uw-bothell.png" /></a>
-<a href="http://www.ewu.edu/csbssw/programs/social-work/off-campus-degrees/everett"><img id="ewu" alt="Eastern Washington University" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
+<a href="https://www.hiu.edu/special-programs/washington-programs/"><img id="hiu" alt="Hope International University" src="/wp-content/uploads/sites/161/2014/08/hiu.png" /></a>
+<a href="http://www.uwb.edu/rnbsn"><img id="uw-bothell" alt="University of Washington Bothell" src="/wp-content/uploads/sites/161/2014/08/uw-bothell.png" /></a>
+<a href="https://www.ewu.edu/css/programs/social-work/everett-programs/msw---everett-part-time-week-night-hybrid-msw-program"><img id="ewu" alt="Eastern Washington University" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
 </div>
 
 <?php } else {
