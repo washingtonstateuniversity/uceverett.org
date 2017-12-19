@@ -20,3 +20,480 @@
 
 /* Add your custom styles below. */
 
+a:hover {
+	text-decoration: underline;
+}
+
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.caption {
+	font-size: 1.3rem;
+	color: #2f3b41;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.yellow {
+	color: #fec553;
+}
+
+.dk_gray {
+	color: #2f3b41;
+}
+
+.black {
+	color: #fec553;
+}
+
+.headline, .headline_textwidth {
+	color: #ffffff;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ffffff;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.yellow_headline, .yellow_headline_textwidth {
+	color: #fec553;
+	text-transform: uppercase;
+	border-bottom: 1px solid #fec553;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.headline_textwidth, .yellow_headline_textwidth {
+	width: inherit;
+}
+
+table, tbody, tfoot, thead, tr, th, td {
+	vertical-align: top;
+}
+
+blockquote p {
+	font-size: 2.2rem;
+}
+
+.vert-border {
+	border-left: 1px dotted #5e6a71;
+	padding-left: 3.5rem;
+}
+
+/* Changing color of submit boxes, etc. */
+.menu-toggle, .ttfmake-button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #7c8180;
+}
+
+.menu-toggle:hover, .ttfmake-button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+	background-color: #fec553;
+	color: #171717;
+}
+
+.menu-toggle {
+	margin-top: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+/* changing red color in gravityforms */
+.gform_wrapper .gfield_required {
+	color: #fec553;
+}
+
+/* Removing code samples that appear under comment boxes */
+.form-allowed-tags {
+	display: none;
+}
+
+/* TablePress styling */
+.tablepress thead th, .tablepress tfoot th {
+	background-color: #fec553;
+	color: #000000;
+}
+
+.dataTables_wrapper .sorting:hover, .dataTables_wrapper .sorting_asc, .dataTables_wrapper .sorting_desc {
+	background-color: #f0a818;
+	color: #000000;
+}
+
+.tablepress thead th a, .tablepress tfoot th a, .dataTables_wrapper .sorting a:hover, .dataTables_wrapper .sorting_asc a, .dataTables_wrapper .sorting_desc a {
+	color: #000000 !important;
+}
+
+.tablepress th, .tablepress td {
+	padding: 1rem;
+}
+
+.tablepress .even td {
+	background-color: transparent;
+}
+
+.tablepress .odd td {
+	background-color: none;
+	background: url("/everettuc/wp-content/uploads/sites/161/2014/08/TablePress-GrayBkgrd.png") transparent repeat-x;
+}
+
+.tablepress .row-hover tr:hover td {
+	background-color: none !important;
+	background: url("/everettuc/wp-content/uploads/sites/161/2014/08/TablePress-LtGrayBkgrd.png") transparent repeat-x !important;
+}
+
+.tablepress a, .tablepress td, .tablepress .odd td, .tablepress .even td {
+	color: #ffffff !important;
+}
+
+.tablepress th a:hover {
+	color: #2f3b41 !important;
+}
+
+.tablepress a:hover {
+	color: #fec553 !important;
+}
+
+.dataTables_paginate a {
+	color: #fec553 !important;
+}
+
+.dataTables_paginate a:hover {
+	color: #f0a818 !important;
+}
+
+.paginate_disabled_next:after, .paginate_disabled_previous:before, .paginate_enabled_next:after, .paginate_enabled_previous:before {
+	color: #ffffff !important;
+}
+
+.tablepress caption a {
+	color: #fec553 !important;
+}
+
+.tablepress caption a:hover {
+	color: #f0a818 !important;
+}
+
+/* 1 col TablePress widths */
+#tablepress-14 > tbody > tr.row-1.odd > td.column-1 {
+	width: 100%;
+}
+
+#tablepress-14 > thead > tr > th.column-1.sorting {
+	width: 100%;
+}
+
+/* 2 col TablePress widths */
+#tablepress-5 > tbody > tr.row-1.odd > td.column-1, #tablepress-6 > tbody > tr.row-1.odd > td.column-1, #tablepress-7 > tbody > tr.row-1.odd > td.column-1, #tablepress-8 > tbody > tr.row-1.odd > td.column-1, #tablepress-9 > tbody > tr.row-1.odd > td.column-1, #tablepress-10 > tbody > tr.row-1.odd > td.column-1, #tablepress-11 > tbody > tr.row-1.odd > td.column-1, #tablepress-12 > tbody > tr.row-1.odd > td.column-1, #tablepress-16 > tbody > tr.row-1.odd > td.column-1, #tablepress-17 > tbody > tr.row-1.odd > td.column-1, #tablepress-18 > tbody > tr.row-1.odd > td.column-1, #tablepress-19 > tbody > tr.row-1.odd > td.column-1, #tablepress-20 > tbody > tr.row-1.odd > td.column-1 {
+	width: 65%;
+}
+
+#tablepress-5 > thead > tr > th.column-1.sorting, #tablepress-6 > thead > tr > th.column-1.sorting, #tablepress-7 > thead > tr > th.column-1.sorting, #tablepress-8 > thead > tr > th.column-1.sorting, #tablepress-9 > thead > tr > th.column-1.sorting, #tablepress-10 > thead > tr > th.column-1.sorting, #tablepress-11 > thead > tr > th.column-1.sorting, #tablepress-12 > thead > tr > th.column-1.sorting, #tablepress-16 > thead > tr > th.column-1.sorting, #tablepress-17 > thead > tr > th.column-1.sorting, #tablepress-18 > thead > tr > th.column-1.sorting, #tablepress-19 > thead > tr > th.column-1.sorting, #tablepress-20 > thead > tr > th.column-1.sorting {
+	width: 65%;
+}
+
+/* 4 col TablePress widths */
+#tablepress-1 > tbody > tr.row-1.odd > td.column-1, #tablepress-1 > tbody > tr.row-1.odd > td.column-2, #tablepress-1 > tbody > tr.row-1.odd > td.column-3, #tablepress-1 > tbody > tr.row-1.odd > td.column-4 {
+	width: 25%;
+}
+
+#tablepress-1 > thead > tr > th.column-1.sorting, #tablepress-1 > thead > tr > th.column-2.sorting, #tablepress-1 > thead > tr > th.column-3.sorting, #tablepress-1 > thead > tr > th.column-4.sorting {
+	width: 25%;
+}
+
+/* 5 col TablePress widths (e.g., staff directory tables) */
+#tablepress-13 > tbody > tr.row-1.odd > td.column-1, #tablepress-13 > thead > tr > th.column-1.sorting, #tablepress-21 > tbody > tr.row-1.odd > td.column-1, #tablepress-21 > thead > tr > th.column-1.sorting, #tablepress-22 > tbody > tr.row-1.odd > td.column-1, #tablepress-22 > thead > tr > th.column-1.sorting, #tablepress-23 > tbody > tr.row-1.odd > td.column-1, #tablepress-23 > thead > tr > th.column-1.sorting, #tablepress-24 > tbody > tr.row-1.odd > td.column-1, #tablepress-24 > thead > tr > th.column-1.sorting, #tablepress-25 > tbody > tr.row-1.odd > td.column-1, #tablepress-25 > thead > tr > th.column-1.sorting, #tablepress-26 > tbody > tr.row-1.odd > td.column-1, #tablepress-26 > thead > tr > th.column-1.sorting, #tablepress-27 > tbody > tr.row-1.odd > td.column-1, #tablepress-27 > thead > tr > th.column-1.sorting, #tablepress-28 > tbody > tr.row-1.odd > td.column-1, #tablepress-28 > thead > tr > th.column-1.sorting, #tablepress-29 > tbody > tr.row-1.odd > td.column-1, #tablepress-29 > thead > tr > th.column-1.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-1, #tablepress-30 > thead > tr > th.column-1.sorting, #tablepress-31 > tbody > tr.row-1.odd > td.column-1, #tablepress-31 > thead > tr > th.column-1.sorting, #tablepress-32 > tbody > tr.row-1.odd > td.column-1, #tablepress-32 > thead > tr > th.column-1.sorting, #tablepress-33 > tbody > tr.row-1.odd > td.column-1, #tablepress-33 > thead > tr > th.column-1.sorting {
+	width: 25%;
+}
+
+#tablepress-13 > tbody > tr.row-1.odd > td.column-2, #tablepress-13 > thead > tr > th.column-2.sorting, #tablepress-21 > tbody > tr.row-1.odd > td.column-2, #tablepress-21 > thead > tr > th.column-2.sorting, #tablepress-22 > tbody > tr.row-1.odd > td.column-2, #tablepress-22 > thead > tr > th.column-2.sorting, #tablepress-23 > tbody > tr.row-1.odd > td.column-2, #tablepress-23 > thead > tr > th.column-2.sorting, #tablepress-24 > tbody > tr.row-1.odd > td.column-2, #tablepress-24 > thead > tr > th.column-2.sorting, #tablepress-25 > tbody > tr.row-1.odd > td.column-2, #tablepress-25 > thead > tr > th.column-2.sorting, #tablepress-26 > tbody > tr.row-1.odd > td.column-2, #tablepress-26 > thead > tr > th.column-2.sorting, #tablepress-27 > tbody > tr.row-1.odd > td.column-2, #tablepress-27 > thead > tr > th.column-2.sorting, #tablepress-28 > tbody > tr.row-1.odd > td.column-2, #tablepress-28 > thead > tr > th.column-2.sorting, #tablepress-29 > tbody > tr.row-1.odd > td.column-2, #tablepress-29 > thead > tr > th.column-2.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-2, #tablepress-30 > thead > tr > th.column-2.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-2, #tablepress-30 > thead > tr > th.column-2.sorting, #tablepress-31 > tbody > tr.row-1.odd > td.column-2, #tablepress-31 > thead > tr > th.column-2.sorting, #tablepress-32 > tbody > tr.row-1.odd > td.column-2, #tablepress-32 > thead > tr > th.column-2.sorting, #tablepress-33 > tbody > tr.row-1.odd > td.column-2, #tablepress-33 > thead > tr > th.column-2.sorting {
+	width: 25%;
+}
+
+#tablepress-13 > tbody > tr.row-1.odd > td.column-3, #tablepress-13 > thead > tr > th.column-3.sorting, #tablepress-21 > tbody > tr.row-1.odd > td.column-3, #tablepress-21 > thead > tr > th.column-3.sorting, #tablepress-22 > tbody > tr.row-1.odd > td.column-3, #tablepress-22 > thead > tr > th.column-3.sorting, #tablepress-23 > tbody > tr.row-1.odd > td.column-3, #tablepress-23 > thead > tr > th.column-3.sorting, #tablepress-24 > tbody > tr.row-1.odd > td.column-3, #tablepress-24 > thead > tr > th.column-3.sorting, #tablepress-25 > tbody > tr.row-1.odd > td.column-3, #tablepress-25 > thead > tr > th.column-3.sorting, #tablepress-26 > tbody > tr.row-1.odd > td.column-3, #tablepress-26 > thead > tr > th.column-3.sorting, #tablepress-27 > tbody > tr.row-1.odd > td.column-3, #tablepress-27 > thead > tr > th.column-3.sorting, #tablepress-28 > tbody > tr.row-1.odd > td.column-3, #tablepress-28 > thead > tr > th.column-3.sorting, #tablepress-29 > tbody > tr.row-1.odd > td.column-3, #tablepress-29 > thead > tr > th.column-3.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-3, #tablepress-30 > thead > tr > th.column-3.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-3, #tablepress-30 > thead > tr > th.column-3.sorting, #tablepress-31 > tbody > tr.row-1.odd > td.column-3, #tablepress-31 > thead > tr > th.column-3.sorting, #tablepress-32 > tbody > tr.row-1.odd > td.column-3, #tablepress-32 > thead > tr > th.column-3.sorting, #tablepress-33 > tbody > tr.row-1.odd > td.column-3, #tablepress-33 > thead > tr > th.column-3.sorting {
+	width: 15%;
+}
+
+#tablepress-13 > tbody > tr.row-1.odd > td.column-4, #tablepress-13 > thead > tr > th.column-4.sorting, #tablepress-21 > tbody > tr.row-1.odd > td.column-4, #tablepress-21 > thead > tr > th.column-4.sorting, #tablepress-22 > tbody > tr.row-1.odd > td.column-4, #tablepress-22 > thead > tr > th.column-4.sorting, #tablepress-23 > tbody > tr.row-1.odd > td.column-4, #tablepress-23 > thead > tr > th.column-4.sorting, #tablepress-24 > tbody > tr.row-1.odd > td.column-4, #tablepress-24 > thead > tr > th.column-4.sorting, #tablepress-25 > tbody > tr.row-1.odd > td.column-4, #tablepress-25 > thead > tr > th.column-4.sorting, #tablepress-26 > tbody > tr.row-1.odd > td.column-4, #tablepress-26 > thead > tr > th.column-4.sorting, #tablepress-27 > tbody > tr.row-1.odd > td.column-4, #tablepress-27 > thead > tr > th.column-4.sorting, #tablepress-28 > tbody > tr.row-1.odd > td.column-4, #tablepress-28 > thead > tr > th.column-4.sorting, #tablepress-29 > tbody > tr.row-1.odd > td.column-4, #tablepress-29 > thead > tr > th.column-4.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-4, #tablepress-30 > thead > tr > th.column-4.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-4, #tablepress-30 > thead > tr > th.column-4.sorting, #tablepress-31 > tbody > tr.row-1.odd > td.column-4, #tablepress-31 > thead > tr > th.column-4.sorting, #tablepress-32 > tbody > tr.row-1.odd > td.column-4, #tablepress-32 > thead > tr > th.column-4.sorting, #tablepress-33 > tbody > tr.row-1.odd > td.column-4, #tablepress-33 > thead > tr > th.column-4.sorting {
+	width: 10%;
+}
+
+#tablepress-13 > tbody > tr.row-1.odd > td.column-5, #tablepress-13 > thead > tr > th.column-5.sorting, #tablepress-21 > tbody > tr.row-1.odd > td.column-5, #tablepress-21 > thead > tr > th.column-5.sorting, #tablepress-22 > tbody > tr.row-1.odd > td.column-5, #tablepress-22 > thead > tr > th.column-5.sorting, #tablepress-23 > tbody > tr.row-1.odd > td.column-5, #tablepress-23 > thead > tr > th.column-5.sorting, #tablepress-24 > tbody > tr.row-1.odd > td.column-5, #tablepress-24 > thead > tr > th.column-5.sorting, #tablepress-25 > tbody > tr.row-1.odd > td.column-5, #tablepress-25 > thead > tr > th.column-5.sorting, #tablepress-26 > tbody > tr.row-1.odd > td.column-5, #tablepress-26 > thead > tr > th.column-5.sorting, #tablepress-27 > tbody > tr.row-1.odd > td.column-5, #tablepress-27 > thead > tr > th.column-5.sorting, #tablepress-28 > tbody > tr.row-1.odd > td.column-5, #tablepress-28 > thead > tr > th.column-5.sorting, #tablepress-29 > tbody > tr.row-1.odd > td.column-5, #tablepress-29 > thead > tr > th.column-5.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-5, #tablepress-30 > thead > tr > th.column-5.sorting, #tablepress-30 > tbody > tr.row-1.odd > td.column-5, #tablepress-30 > thead > tr > th.column-5.sorting, #tablepress-31 > tbody > tr.row-1.odd > td.column-5, #tablepress-31 > thead > tr > th.column-5.sorting, #tablepress-32 > tbody > tr.row-1.odd > td.column-5, #tablepress-32 > thead > tr > th.column-5.sorting, #tablepress-33 > tbody > tr.row-1.odd > td.column-5, #tablepress-33 > thead > tr > th.column-5.sorting {
+	width: 25%;
+}
+
+/* -- end of TablePress -- */
+#logos {
+	background-color: #2f3b41;
+	text-align: center;
+}
+
+#logos img {
+	margin: 2rem 2.4rem;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+/* centering subhead on homepage */
+#builder-section-1407795355128 h3.builder-text-section-title {
+	text-align: center;
+	padding-top: 2.5rem;
+}
+
+#builder-section-1408384429990 {
+	margin-bottom: 2rem !important;
+}
+
+/* remove page title from lower on homepage and other pages */
+header.entry-header h1.entry-title {
+	display: none;
+	height: 0;
+}
+
+/* responsive breakpoints for #logos padding to remove possible orphan logos */
+/*1260px=78.75rem*/
+/*1017px=63.56rem*/
+@media only screen and (min-width:63.56rem ) and (max-width:78.75rem ) {
+	#logos {
+		padding: 0 12.5rem;
+	}
+}
+
+/* responsive breakpoints for #logos img */
+/*800px=50rem*/
+/*1560px=97.5rem*/
+@media only screen and (min-width:50rem ) and (max-width:97.5rem ) {
+	#logos img {
+		max-height: 8rem;
+	}
+	
+	#cwu {
+		max-height: 3.5rem;
+	}
+}
+
+/*799px=49.94rem*/
+@media only screen and (max-width:49.94rem ) {
+	#logos img {
+		display: none;
+	}
+	
+	#logos {
+		height: 2rem;
+	}
+	
+	.vert-border {
+		border-left: none;
+		padding-left: 0;
+	}
+}
+
+.site-description {
+	font-size: 3.2rem;
+	line-height: 3.5rem;
+}
+
+.site-header-main {
+	background-color: #fec553;
+	padding: 1.8rem 0 1rem;
+}
+
+.site-branding {
+	float: none;
+	max-width: 100%;
+	text-align: center;
+}
+
+/* header/footer borders */
+.border {
+	background-color: #ffffff;
+	height: 5px;
+	clear: both;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.site-navigation {
+	text-align: center;
+	max-width: 100%;
+	float: none;
+	margin-left: 3rem;
+	margin-right: 3rem;
+}
+
+.site-navigation .menu li a, .site-navigation .nav-menu li a {
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.site-navigation .menu li a:hover, .site-navigation .nav-menu li a:hover {
+	color: #fec553;
+}
+
+/*799px=49.94rem*/
+@media only screen and (max-width:49.94rem ) {
+	.site-navigation .menu li a, .site-navigation .nav-menu li a {
+		border-bottom: 1px solid #7c8180;
+	}
+}
+
+/*800px=50rem*/
+@media only screen and (min-width:50rem ) {
+	form.search-form {
+		padding-left: 1rem !important;
+	}
+}
+
+/* search box styling */
+.dataTables_wrapper label input, .dataTables_wrapper label select {
+	color: #000000;
+}
+
+form.search-form {
+	color: #000000;
+	display: block;
+	font-size: 1.4rem;
+	font-weight: normal;
+	line-height: 1.1;
+	width: 16rem;
+}
+
+form.search-form input {
+	color: #000000;
+}
+
+::-webkit-input-placeholder {
+/* WebKit browsers */
+	color: #000000;
+}
+
+:-moz-placeholder {
+/* Mozilla Firefox 4 to 18 */
+	color: #000000;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+/* Mozilla Firefox 19+ */
+	color: #000000;
+	opacity: 1;
+}
+
+:-ms-input-placeholder {
+/* Internet Explorer 10+ */
+	color: #000000;
+}
+
+/* styling 'current page' in site nav */
+.current-menu-item {
+	text-decoration: underline;
+}
+
+.current-menu-item:hover {
+	color: #fec553;
+}
+
+.site-content {
+	padding-bottom: 1rem;
+	padding-top: 0;
+}
+
+/* content boxes on homepage */
+.content-box {
+	background-color: #ffffff;
+	opacity: .7;
+	padding: 1rem;
+	margin-bottom: 2.5rem;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.content-box a {
+	color: #000000;
+}
+
+.content-box a:hover {
+	color: #2f3b41;
+}
+
+.content-box p, .content-box h1, .content-box h2, .content-box h3, .content-box h4, .content-box h5, .content-box h6, .content-box span, .content-box div, .content-box li {
+	opacity: 1;
+	color: #000000;
+	font-weight: normal;
+}
+
+.content-box h1, .content-box h2, .content-box h3, .content-box h4, .content-box h5, .content-box h6 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 100%;
+	line-height: 105%;
+	word-wrap: normal;
+}
+
+.break, p, ul, ol, dl, blockquote, h1, h2, h3, h4, h5, h6, pre, table {
+	word-wrap: normal;
+}
+
+.content-box p, .content-box li {
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+
+.container li {
+	margin-bottom: .65rem;
+}
+
+/*800px=50rem*/
+@media only screen and (min-width:50rem ) {
+	.content-box {
+		min-height: 28rem;
+	}
+}
+
+.site-footer .site-info, .site-footer .site-info a {
+	font-size: .9rem !important;
+	display: none;
+}
+
+.site-footer {
+	padding-top: 1.8rem;
+	padding-bottom: 1.8rem;
+}
+
+.site-footer a[href^=tel] {
+	color: #000000 !important;
+	text-decoration: none !important;
+}
+
+/* logos on univ degree programs pg */
+#builder-section-1404331169269 img {
+	margin-top: .5rem;
+	margin-bottom: .5rem;
+}
+
+/* image borders for facilities pg */
+#post-691 img {
+	border: solid 1px #fec553;
+}
+
+/* drop-down nav styles */
+.site-navigation .menu .sub-menu a, .site-navigation .menu .children a, .site-navigation .nav-menu .sub-menu a, .site-navigation .nav-menu .children a {
+	text-decoration: none;
+}
+
+.site-navigation .menu .sub-menu, .site-navigation .menu .children, .site-navigation .nav-menu .sub-menu, .site-navigation .nav-menu .children {
+	background-color: #000000;
+}
+
+.site-navigation .menu .sub-menu a:hover, .site-navigation .menu .children a:hover, .site-navigation .nav-menu .sub-menu a:hover, .site-navigation .nav-menu .children a:hover {
+	background-color: #2f3b41;
+}
+
+input, select, textarea, ul.chosen-results {
+	color: #000000;
+}
