@@ -21,13 +21,11 @@
 <?php
 if ( is_front_page() ) { ?>
 <div id="logos">
-<a href="http://www.everett.wsu.edu/"><img id="wsu" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
-<a href="http://www.wwu.edu/ee/main/everett.shtml"><img id="wwu" src="/wp-content/uploads/sites/161/2014/08/wwu.png" /></a>
-<a href="http://www.hiu.edu/washington/"><img id="hiu" src="/wp-content/uploads/sites/161/2014/08/hiu.png" /></a>
-<a href="http://www.uwb.edu/nhs/nhsdegrees/rnbprograms/rnbsn-everett"><img id="uw-bothell" src="/wp-content/uploads/sites/161/2014/08/uw-bothell.png" /></a>
-<a href="http://www.ewu.edu/csbssw/programs/social-work/off-campus-degrees/everett"><img id="ewu" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
-<a href="http://www.evergreen.edu/tribal/curriculum.htm"><img id="esc" src="/wp-content/uploads/sites/161/2014/08/esc.png" /></a>
-<a href="http://www.cwu.edu/everett/"><img id="cwu" src="/wp-content/uploads/sites/161/2014/09/cwu.png" /></a>
+<a href="http://www.everett.wsu.edu/"><img id="wsu" alt="Washington State University" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
+<a href="https://ee.wwu.edu/about/locations/everett"><img id="wwu" alt="Western Washington University" src="/wp-content/uploads/sites/161/2014/08/wwu.png" /></a>
+<a href="http://www.hiu.edu/washington/"><img id="hiu" alt="Hope International University" src="/wp-content/uploads/sites/161/2014/08/hiu.png" /></a>
+<a href="http://www.uwb.edu/nhs/nhsdegrees/rnbprograms/rnbsn-everett"><img id="uw-bothell" alt="University of Washington Bothell" src="/wp-content/uploads/sites/161/2014/08/uw-bothell.png" /></a>
+<a href="http://www.ewu.edu/csbssw/programs/social-work/off-campus-degrees/everett"><img id="ewu" alt="Eastern Washington University" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
 </div>
 
 <?php } else {
