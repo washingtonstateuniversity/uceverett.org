@@ -22,3 +22,10 @@ function add_search_box_to_menu( $items, $args ) {
 
     return $items;
 }
+
+add_action( 'wp_enqueue_scripts', 'everettuc_enqueue_styles' );
+
+function everettuc_enqueue_styles() {
+    wp_enqueue_style( 'make', get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'everettuc', get_stylesheet_directory_uri() . '/style.css', array( 'make' ), wp_get_theme()->get( 'Version' ) );
+}
