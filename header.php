@@ -18,8 +18,7 @@
 	<body <?php body_class(); ?>>
 		<div id="site-wrapper" class="site-wrapper">
 
-<?php
-if ( is_front_page() ) { ?>
+<?php if ( is_front_page() ) { ?>
 <div id="logos">
 <a href="https://everett.wsu.edu/"><img id="wsu" alt="Washington State University" src="/wp-content/uploads/sites/161/2014/08/wsu.png" /></a>
 <a href="https://ee.wwu.edu/about/locations/everett"><img id="wwu" alt="Western Washington University" src="/wp-content/uploads/sites/161/2014/08/wwu.png" /></a>
@@ -28,13 +27,8 @@ if ( is_front_page() ) { ?>
 <a href="https://www.ewu.edu/css/programs/social-work/everett-programs/msw---everett-part-time-week-night-hybrid-msw-program"><img id="ewu" alt="Eastern Washington University" src="/wp-content/uploads/sites/161/2014/08/ewu.png" /></a>
 </div>
 
-<?php } else {
-    // This is for all other pages/posts
-
-}
-?>
+<?php } ?>
 
 <div class="border"></div>
 
 			<?php ttfmake_maybe_show_site_region( 'header' ); ?>
-

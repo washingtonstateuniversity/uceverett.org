@@ -16,7 +16,7 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 
 <header id="site-header" class="<?php echo esc_attr( ttfmake_get_site_header_class() ); ?>" role="banner">
 	<?php // Only show Sub Header if it has content
-	if ( ! empty( $header_text ) || 1 === $show_search || ( ! empty ( $social_links ) && 1 === $show_social ) ) : ?>
+	if ( ! empty( $header_text ) || 1 === $show_search || ( ! empty( $social_links ) && 1 === $show_social ) ) : ?>
 	<div class="header-bar<?php echo esc_attr( $subheader_class ); ?>">
 		<div class="container">
 			<?php // Search form
@@ -28,7 +28,7 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 			<?php // Header text
 			if ( ! empty( $header_text ) ) : ?>
 				<span class="header-text">
-				<?php echo ttfmake_sanitize_text( $header_text ); ?>
+				<?php echo wp_kses_post( $header_text ); ?>
 			</span>
 			<?php endif; ?>
 		</div>
@@ -38,19 +38,19 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 		<div class="container">
 			<div class="site-branding">
 				<?php // Tagline
-				if ( is_front_page() OR is_archive() OR is_search() OR is_404() && 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
+				if ( is_front_page() || is_archive() || is_search() || is_404() && 1 !== $hide_tagline && get_bloginfo( 'description' ) ) : ?>
 				<span class="site-description">
 					<?php bloginfo( 'description' ); ?>
 				</span>
-				<?php elseif( is_singular() ) : ?>
+				<?php elseif ( is_singular() ) : ?>
 					<span class="site-description"><?php the_title(); ?></span>
 				<?php endif; ?>
 			</div>
 
-			
+
 		</div>
 	</div>
-	
+
 </header>
 <div class="border"></div>
 
@@ -58,12 +58,12 @@ $menu_label      = get_theme_mod( 'navigation-mobile-label', ttfmake_get_default
 
 <nav id="site-navigation" class="site-navigation" role="navigation">
 				<span class="menu-toggle"><?php echo esc_html( $menu_label ); ?></span>
-				<a class="skip-link screen-reader-text" href="#site-content"><?php _e( 'Skip to content', 'make' ); ?></a>
+				<a class="skip-link screen-reader-text" href="#site-content"><?php esc_html_e( 'Skip to content', 'make' ); ?></a>
 				<?php
 				wp_nav_menu( array(
-					'theme_location' => 'primary'
+					'theme_location' => 'primary',
 				) );
 				?>
 			</nav>
-			
+
 				<div class="container">
